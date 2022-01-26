@@ -2,8 +2,8 @@
 //  OnboardingController.swift
 //  Pigeon-project
 //
-//  Created by Jake Brown based on Falcon Messenger
-//  Copyright © 2022 Jake Brown Media Productions. All rights reserved.
+//  Created by Roman Mizin on 8/2/17.
+//  Copyright © 2017 Roman Mizin. All rights reserved.
 //
 
 import UIKit
@@ -26,7 +26,7 @@ final class OnboardingController: UIViewController {
     definesPresentationContext = true
     onboardingContainerView.translatesAutoresizingMaskIntoConstraints = false
     onboardingContainerView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-    onboardingContainerView.topAnchor.constraint(equalTo: topLayoutGuide.bottomAnchor).isActive = true
+    onboardingContainerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
     onboardingContainerView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
     onboardingContainerView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
     setColorsAccordingToTheme()

@@ -2,8 +2,8 @@
 //  VerificationCodeController.swift
 //  Pigeon-project
 //
-//  Created by Jake Brown based on Falcon Messenger
-//  Copyright © 2022 Jake Brown Media Productions. All rights reserved.
+//  Created by Roman Mizin on 8/2/17.
+//  Copyright © 2017 Roman Mizin. All rights reserved.
 //
 
 import UIKit
@@ -31,7 +31,7 @@ class VerificationCodeController: UIViewController {
     view.addSubview(enterVerificationContainerView)
     enterVerificationContainerView.translatesAutoresizingMaskIntoConstraints = false
     enterVerificationContainerView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-    enterVerificationContainerView.topAnchor.constraint(equalTo: topLayoutGuide.bottomAnchor).isActive = true
+    enterVerificationContainerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
     enterVerificationContainerView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
     enterVerificationContainerView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
     enterVerificationContainerView.resend.addTarget(self, action: #selector(sendSMSConfirmation), for: .touchUpInside)

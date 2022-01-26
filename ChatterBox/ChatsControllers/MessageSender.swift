@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 import Photos
 
-protocol MessageSenderDelegate: class {
+protocol MessageSenderDelegate: AnyObject {
   func update(with arrayOfvalues: [[String: AnyObject]])
   func update(mediaSending progress: Double, animated: Bool)
 }

@@ -11,12 +11,12 @@ import FirebaseDatabase
 import FirebaseAuth
 import Photos
 
-protocol MessagesDelegate: class {
+protocol MessagesDelegate: AnyObject {
     func messages(shouldBeUpdatedTo messages: [Message], conversation:Conversation, controller: UIViewController)
     func messages(shouldChangeMessageStatusToReadAt reference: DatabaseReference, controller: UIViewController)
 }
 
-protocol CollectionDelegate: class {
+protocol CollectionDelegate: AnyObject {
   func collectionView(shouldBeUpdatedWith message: Message, reference: DatabaseReference)
   func collectionView(shouldRemoveMessage id: String)
   func collectionView(shouldUpdateOutgoingMessageStatusFrom reference: DatabaseReference, message: Message)

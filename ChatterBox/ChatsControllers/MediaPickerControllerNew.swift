@@ -9,7 +9,7 @@
 import UIKit
 import Photos
 
-protocol MediaPickerDelegate: class {
+protocol MediaPickerDelegate: AnyObject {
   func didSelectMedia(mediaObject: MediaObject)
   func didSelectMediaNameSensitive(mediaObject: MediaObject)
   func didTakePhoto(mediaObject: MediaObject)

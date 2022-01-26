@@ -13,7 +13,7 @@ import AVFoundation
 import CropViewController
 import SDWebImage
 
-protocol AvatarOpenerDelegate: class {
+protocol AvatarOpenerDelegate: AnyObject {
  func avatarOpener(avatarPickerDidPick image: UIImage)
  func avatarOpener(didPerformDeletionAction: Bool)
 }
@@ -183,13 +183,13 @@ class AvatarOpener: NSObject, UIImagePickerControllerDelegate, UINavigationContr
       case .denied, .restricted:
         basicErrorAlertWith(title: basicTitleForAccessError, message: photoLibraryAccessDeniedMessageProfilePicture, controller: controller)
         return
-      case .notDetermined:
+    case .notDetermined, .limited:
         PHPhotoLibrary.requestAuthorization() { [weak self] status in
           switch status {
             case .authorized:
               self?.presentGallery()
               break
-            case .denied, .restricted, .notDetermined:
+          case .denied, .restricted, .notDetermined, .limited:
               basicErrorAlertWith(title: basicTitleForAccessError, message: photoLibraryAccessDeniedMessageProfilePicture, controller: controller)
                             @unknown default:
                                 fatalError()

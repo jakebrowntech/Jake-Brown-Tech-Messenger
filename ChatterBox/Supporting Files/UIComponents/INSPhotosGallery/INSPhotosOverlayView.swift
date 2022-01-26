@@ -19,7 +19,7 @@
 
 import UIKit
 
-public protocol INSPhotosOverlayViewable: class {
+public protocol INSPhotosOverlayViewable: AnyObject {
 	var photosViewController: INSPhotosViewController? { get set }
 	var bottomView: OverlayDefaultBottomView { get }
 	func populateWithPhoto(_ photo: INSPhotoViewable)

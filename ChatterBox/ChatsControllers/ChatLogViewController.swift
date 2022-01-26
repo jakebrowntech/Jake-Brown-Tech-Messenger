@@ -16,7 +16,7 @@ import FTPopOverMenu_Swift
 import SafariServices
 import RealmSwift
 
-protocol DeleteAndExitDelegate: class {
+protocol DeleteAndExitDelegate: AnyObject {
   func deleteAndExit(from conversationID: String)
 }
 

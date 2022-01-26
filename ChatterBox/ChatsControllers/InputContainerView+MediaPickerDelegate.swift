@@ -93,7 +93,7 @@ extension InputContainerView: MediaPickerDelegate {
       break
     case .denied, .restricted:
       break
-    case .notDetermined:
+    case .notDetermined, .limited:
       PHPhotoLibrary.requestAuthorization { status in
         switch status {
         case .authorized:
@@ -103,7 +103,7 @@ extension InputContainerView: MediaPickerDelegate {
 						self?.mediaPickerController?.collectionView.reloadData()
 					}
 
-        case .denied, .restricted, .notDetermined:
+        case .denied, .restricted, .notDetermined, .limited:
           break
 				@unknown default:
 					fatalError()

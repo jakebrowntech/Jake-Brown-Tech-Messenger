@@ -2,8 +2,8 @@
 //  PhoneNumberController.swift
 //  Pigeon-project
 //
-//  Created by Jake Brown based on Falcon Messenger
-//  Copyright © 2022 Jake Brown Media Productions. All rights reserved.
+//  Created by Roman Mizin on 8/2/17.
+//  Copyright © 2017 Roman Mizin. All rights reserved.
 //
 
 import UIKit
@@ -39,7 +39,7 @@ class PhoneNumberController: UIViewController {
     view.addSubview(phoneNumberContainerView)
     phoneNumberContainerView.translatesAutoresizingMaskIntoConstraints = false
     phoneNumberContainerView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
-    phoneNumberContainerView.topAnchor.constraint(equalTo: topLayoutGuide.bottomAnchor).isActive = true
+    phoneNumberContainerView.topAnchor.constraint(equalTo: view.safeAreaLayoutGuide.topAnchor).isActive = true
     phoneNumberContainerView.leftAnchor.constraint(equalTo: view.leftAnchor).isActive = true
     phoneNumberContainerView.rightAnchor.constraint(equalTo: view.rightAnchor).isActive = true
   }

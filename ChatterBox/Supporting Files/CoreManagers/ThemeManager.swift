@@ -261,11 +261,11 @@ enum Theme: Int {
   var controlButtonColor: UIColor {
     switch self {
     case .Default:
-      return UIColor(red: 0.94, green: 0.94, blue: 0.96, alpha: 1.0)
+        return .secondarySystemFill
     case .Dark:
-      return UIColor(red: 0.11, green: 0.11, blue: 0.11, alpha: 1.0)
+        return .secondarySystemFill
 		case .LivingCoral:
-			return UIColor(red: 0.94, green: 0.94, blue: 0.96, alpha: 1.0)
+        return .secondarySystemFill
 		}
   }
 

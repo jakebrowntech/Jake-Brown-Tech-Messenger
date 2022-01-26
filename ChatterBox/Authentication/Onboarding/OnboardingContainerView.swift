@@ -2,8 +2,8 @@
 //  OnboardingContainerView.swift
 //  Pigeon-project
 //
-//  Created by Jake Brown based on Falcon Messenger
-//  Copyright © 2022 Jake Brown Media Productions. All rights reserved.
+//  Created by Roman Mizin on 8/2/17.
+//  Copyright © 2017 Roman Mizin. All rights reserved.
 //
 
 import UIKit
@@ -23,7 +23,7 @@ final class OnboardingContainerView: UIView {
     let welcomeTitle = UILabel()
     welcomeTitle.translatesAutoresizingMaskIntoConstraints = false
     welcomeTitle.text = "Welcome to ChatterBox"
-    welcomeTitle.font = UIFont.boldSystemFont(ofSize: 20)
+    welcomeTitle.font = UIFont.boldSystemFont(ofSize: 18)
     welcomeTitle.textAlignment = .center
     welcomeTitle.textColor = ThemeManager.currentTheme().generalTitleColor
     welcomeTitle.sizeToFit()

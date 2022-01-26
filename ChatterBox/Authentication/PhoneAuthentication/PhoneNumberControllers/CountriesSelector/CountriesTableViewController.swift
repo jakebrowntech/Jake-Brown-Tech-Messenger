@@ -1,9 +1,9 @@
 //
 //  CountriesTableViewController.swift
-//  ChatterBox
+//  FalconMessenger
 //
-//  Created by Jake Brown based on Falcon Messenger
-//  Copyright © 2022 Jake Brown Media Productions. All rights reserved.
+//  Created by Roman Mizin on 8/26/18.
+//  Copyright © 2018 Roman Mizin. All rights reserved.
 //
 
 import UIKit

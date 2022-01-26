@@ -2,8 +2,8 @@
 //  AuthVerificationController.swift
 //  Pigeon-project
 //
-//  Created by Jake Brown based on Falcon Messenger
-//  Copyright © 2022 Jake Brown Media Productions. All rights reserved.
+//  Created by Roman Mizin on 3/30/18.
+//  Copyright © 2018 Roman Mizin. All rights reserved.
 //
 
 import UIKit

@@ -9,7 +9,7 @@
 import UIKit
 import Firebase
 
-protocol ChatLogHistoryDelegate: class {
+protocol ChatLogHistoryDelegate: AnyObject {
   func chatLogHistory(isEmpty: Bool)
   func chatLogHistory(updated messages: [Message])
 }

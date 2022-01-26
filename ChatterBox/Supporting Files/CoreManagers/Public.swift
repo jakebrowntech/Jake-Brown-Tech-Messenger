@@ -500,7 +500,7 @@ func libraryAccessChecking() -> Bool {
   case .denied, .restricted :
     return false
     
-  case .notDetermined:
+  case .notDetermined, .limited:
     return false
 	@unknown default:
 		fatalError()

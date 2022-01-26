@@ -10,7 +10,7 @@ import UIKit
 import Firebase
 
 
-@objc protocol GroupMembersManagerDelegate: class {
+@objc protocol GroupMembersManagerDelegate: AnyObject {
   @objc optional func updateName(name: String)
   @objc optional func updateAdmin(admin: String)
   func addMember(id: String)

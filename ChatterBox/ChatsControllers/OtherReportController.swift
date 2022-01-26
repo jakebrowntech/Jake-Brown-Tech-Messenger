@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol OtherReportDelegate: class {
+protocol OtherReportDelegate: AnyObject {
   func send(reportWith description: String)
 }
 

@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2342E5A027A0B4D00070B724 /* UserProfileContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E59A27A0B4D00070B724 /* UserProfileContainerView.swift */; };
-		2342E5A127A0B4D00070B724 /* UserProfileDataDatabaseUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E59B27A0B4D00070B724 /* UserProfileDataDatabaseUpdater.swift */; };
-		2342E5A227A0B4D00070B724 /* UserProfileController+keyboardHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E59C27A0B4D00070B724 /* UserProfileController+keyboardHandlers.swift */; };
-		2342E5A327A0B4D00070B724 /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E59D27A0B4D00070B724 /* UserProfileController.swift */; };
-		2342E5A427A0B4D00070B724 /* UserProfileAvatarOpenerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E59E27A0B4D00070B724 /* UserProfileAvatarOpenerDelegate.swift */; };
-		2342E5A527A0B4D00070B724 /* UserExistenceChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E59F27A0B4D00070B724 /* UserExistenceChecker.swift */; };
-		2342E5BA27A0B4D60070B724 /* CountriesTableViewController+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E5A927A0B4D60070B724 /* CountriesTableViewController+Search.swift */; };
-		2342E5BB27A0B4D60070B724 /* CountriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E5AB27A0B4D60070B724 /* CountriesTableViewCell.swift */; };
-		2342E5BC27A0B4D60070B724 /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E5AC27A0B4D60070B724 /* CountriesTableViewController.swift */; };
-		2342E5BD27A0B4D60070B724 /* CallingCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2342E5AE27A0B4D60070B724 /* CallingCodes.plist */; };
-		2342E5BE27A0B4D60070B724 /* CountriesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E5AF27A0B4D60070B724 /* CountriesFetcher.swift */; };
-		2342E5BF27A0B4D60070B724 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E5B127A0B4D60070B724 /* Country.swift */; };
-		2342E5C027A0B4D60070B724 /* PhoneNumberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E5B227A0B4D60070B724 /* PhoneNumberController.swift */; };
-		2342E5C127A0B4D60070B724 /* PhoneNumberContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E5B327A0B4D60070B724 /* PhoneNumberContainerView.swift */; };
-		2342E5C227A0B4D60070B724 /* VerificationCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E5B527A0B4D60070B724 /* VerificationCodeController.swift */; };
-		2342E5C327A0B4D60070B724 /* VerificationContainerView+Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E5B627A0B4D60070B724 /* VerificationContainerView+Timer.swift */; };
-		2342E5C427A0B4D60070B724 /* VerificationContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E5B727A0B4D60070B724 /* VerificationContainerView.swift */; };
-		2342E5C527A0B4D60070B724 /* AuthPhoneNumberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E5B827A0B4D60070B724 /* AuthPhoneNumberController.swift */; };
-		2342E5C627A0B4D60070B724 /* AuthVerificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E5B927A0B4D60070B724 /* AuthVerificationController.swift */; };
-		2342E5CA27A0B4DA0070B724 /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E5C827A0B4DA0070B724 /* OnboardingController.swift */; };
-		2342E5CB27A0B4DA0070B724 /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E5C927A0B4DA0070B724 /* OnboardingContainerView.swift */; };
+		2342E65327A0EAA10070B724 /* UserProfileContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E63627A0EAA10070B724 /* UserProfileContainerView.swift */; };
+		2342E65427A0EAA10070B724 /* UserProfileDataDatabaseUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E63727A0EAA10070B724 /* UserProfileDataDatabaseUpdater.swift */; };
+		2342E65527A0EAA10070B724 /* UserProfileController+keyboardHandlers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E63827A0EAA10070B724 /* UserProfileController+keyboardHandlers.swift */; };
+		2342E65627A0EAA10070B724 /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E63927A0EAA10070B724 /* UserProfileController.swift */; };
+		2342E65727A0EAA10070B724 /* UserProfileAvatarOpenerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E63A27A0EAA10070B724 /* UserProfileAvatarOpenerDelegate.swift */; };
+		2342E65827A0EAA10070B724 /* UserExistenceChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E63B27A0EAA10070B724 /* UserExistenceChecker.swift */; };
+		2342E65927A0EAA10070B724 /* CountriesTableViewController+Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E63F27A0EAA10070B724 /* CountriesTableViewController+Search.swift */; };
+		2342E65A27A0EAA10070B724 /* CountriesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E64127A0EAA10070B724 /* CountriesTableViewCell.swift */; };
+		2342E65B27A0EAA10070B724 /* CountriesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E64227A0EAA10070B724 /* CountriesTableViewController.swift */; };
+		2342E65C27A0EAA10070B724 /* CallingCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2342E64427A0EAA10070B724 /* CallingCodes.plist */; };
+		2342E65D27A0EAA10070B724 /* CountriesFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E64527A0EAA10070B724 /* CountriesFetcher.swift */; };
+		2342E65E27A0EAA10070B724 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E64727A0EAA10070B724 /* Country.swift */; };
+		2342E65F27A0EAA10070B724 /* PhoneNumberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E64827A0EAA10070B724 /* PhoneNumberController.swift */; };
+		2342E66027A0EAA10070B724 /* PhoneNumberContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E64927A0EAA10070B724 /* PhoneNumberContainerView.swift */; };
+		2342E66127A0EAA10070B724 /* VerificationCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E64B27A0EAA10070B724 /* VerificationCodeController.swift */; };
+		2342E66227A0EAA10070B724 /* VerificationContainerView+Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E64C27A0EAA10070B724 /* VerificationContainerView+Timer.swift */; };
+		2342E66327A0EAA10070B724 /* VerificationContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E64D27A0EAA10070B724 /* VerificationContainerView.swift */; };
+		2342E66427A0EAA10070B724 /* AuthPhoneNumberController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E64E27A0EAA10070B724 /* AuthPhoneNumberController.swift */; };
+		2342E66527A0EAA10070B724 /* AuthVerificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E64F27A0EAA10070B724 /* AuthVerificationController.swift */; };
+		2342E66627A0EAA10070B724 /* OnboardingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E65127A0EAA10070B724 /* OnboardingController.swift */; };
+		2342E66727A0EAA10070B724 /* OnboardingContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2342E65227A0EAA10070B724 /* OnboardingContainerView.swift */; };
 		4B01BB6821D683A500FF229B /* VoiceRecorderRespondingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B01BB6721D683A500FF229B /* VoiceRecorderRespondingButton.swift */; };
 		4B01BB6A21D683BA00FF229B /* MediaPickerRespondingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B01BB6921D683BA00FF229B /* MediaPickerRespondingButton.swift */; };
 		4B01BB6D21D6842D00FF229B /* RespondingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B01BB6C21D6842D00FF229B /* RespondingButton.swift */; };
@@ -253,27 +253,27 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		2342E59A27A0B4D00070B724 /* UserProfileContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileContainerView.swift; sourceTree = "<group>"; };
-		2342E59B27A0B4D00070B724 /* UserProfileDataDatabaseUpdater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileDataDatabaseUpdater.swift; sourceTree = "<group>"; };
-		2342E59C27A0B4D00070B724 /* UserProfileController+keyboardHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserProfileController+keyboardHandlers.swift"; sourceTree = "<group>"; };
-		2342E59D27A0B4D00070B724 /* UserProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
-		2342E59E27A0B4D00070B724 /* UserProfileAvatarOpenerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileAvatarOpenerDelegate.swift; sourceTree = "<group>"; };
-		2342E59F27A0B4D00070B724 /* UserExistenceChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserExistenceChecker.swift; sourceTree = "<group>"; };
-		2342E5A927A0B4D60070B724 /* CountriesTableViewController+Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CountriesTableViewController+Search.swift"; sourceTree = "<group>"; };
-		2342E5AB27A0B4D60070B724 /* CountriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesTableViewCell.swift; sourceTree = "<group>"; };
-		2342E5AC27A0B4D60070B724 /* CountriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
-		2342E5AE27A0B4D60070B724 /* CallingCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CallingCodes.plist; sourceTree = "<group>"; };
-		2342E5AF27A0B4D60070B724 /* CountriesFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesFetcher.swift; sourceTree = "<group>"; };
-		2342E5B127A0B4D60070B724 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
-		2342E5B227A0B4D60070B724 /* PhoneNumberController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberController.swift; sourceTree = "<group>"; };
-		2342E5B327A0B4D60070B724 /* PhoneNumberContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberContainerView.swift; sourceTree = "<group>"; };
-		2342E5B527A0B4D60070B724 /* VerificationCodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationCodeController.swift; sourceTree = "<group>"; };
-		2342E5B627A0B4D60070B724 /* VerificationContainerView+Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VerificationContainerView+Timer.swift"; sourceTree = "<group>"; };
-		2342E5B727A0B4D60070B724 /* VerificationContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationContainerView.swift; sourceTree = "<group>"; };
-		2342E5B827A0B4D60070B724 /* AuthPhoneNumberController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthPhoneNumberController.swift; sourceTree = "<group>"; };
-		2342E5B927A0B4D60070B724 /* AuthVerificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthVerificationController.swift; sourceTree = "<group>"; };
-		2342E5C827A0B4DA0070B724 /* OnboardingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
-		2342E5C927A0B4DA0070B724 /* OnboardingContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
+		2342E63627A0EAA10070B724 /* UserProfileContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileContainerView.swift; sourceTree = "<group>"; };
+		2342E63727A0EAA10070B724 /* UserProfileDataDatabaseUpdater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileDataDatabaseUpdater.swift; sourceTree = "<group>"; };
+		2342E63827A0EAA10070B724 /* UserProfileController+keyboardHandlers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UserProfileController+keyboardHandlers.swift"; sourceTree = "<group>"; };
+		2342E63927A0EAA10070B724 /* UserProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
+		2342E63A27A0EAA10070B724 /* UserProfileAvatarOpenerDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileAvatarOpenerDelegate.swift; sourceTree = "<group>"; };
+		2342E63B27A0EAA10070B724 /* UserExistenceChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserExistenceChecker.swift; sourceTree = "<group>"; };
+		2342E63F27A0EAA10070B724 /* CountriesTableViewController+Search.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CountriesTableViewController+Search.swift"; sourceTree = "<group>"; };
+		2342E64127A0EAA10070B724 /* CountriesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesTableViewCell.swift; sourceTree = "<group>"; };
+		2342E64227A0EAA10070B724 /* CountriesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesTableViewController.swift; sourceTree = "<group>"; };
+		2342E64427A0EAA10070B724 /* CallingCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = CallingCodes.plist; sourceTree = "<group>"; };
+		2342E64527A0EAA10070B724 /* CountriesFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CountriesFetcher.swift; sourceTree = "<group>"; };
+		2342E64727A0EAA10070B724 /* Country.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		2342E64827A0EAA10070B724 /* PhoneNumberController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberController.swift; sourceTree = "<group>"; };
+		2342E64927A0EAA10070B724 /* PhoneNumberContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhoneNumberContainerView.swift; sourceTree = "<group>"; };
+		2342E64B27A0EAA10070B724 /* VerificationCodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationCodeController.swift; sourceTree = "<group>"; };
+		2342E64C27A0EAA10070B724 /* VerificationContainerView+Timer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VerificationContainerView+Timer.swift"; sourceTree = "<group>"; };
+		2342E64D27A0EAA10070B724 /* VerificationContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VerificationContainerView.swift; sourceTree = "<group>"; };
+		2342E64E27A0EAA10070B724 /* AuthPhoneNumberController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthPhoneNumberController.swift; sourceTree = "<group>"; };
+		2342E64F27A0EAA10070B724 /* AuthVerificationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthVerificationController.swift; sourceTree = "<group>"; };
+		2342E65127A0EAA10070B724 /* OnboardingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingController.swift; sourceTree = "<group>"; };
+		2342E65227A0EAA10070B724 /* OnboardingContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnboardingContainerView.swift; sourceTree = "<group>"; };
 		23E92403279F24FC0042AEAA /* ChatterBox.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = ChatterBox.entitlements; path = ChatterBox/ChatterBox.entitlements; sourceTree = "<group>"; };
 		2804742839373B4DE895DBF8 /* Pods-ChatterBox.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatterBox.release.xcconfig"; path = "Target Support Files/Pods-ChatterBox/Pods-ChatterBox.release.xcconfig"; sourceTree = "<group>"; };
 		4B01BB6721D683A500FF229B /* VoiceRecorderRespondingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = VoiceRecorderRespondingButton.swift; path = ChatsControllers/VoiceRecorderRespondingButton.swift; sourceTree = "<group>"; };
@@ -502,97 +502,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2342E59927A0B4D00070B724 /* UserProfile */ = {
+		2342E63427A0EAA10070B724 /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
-				2342E59A27A0B4D00070B724 /* UserProfileContainerView.swift */,
-				2342E59B27A0B4D00070B724 /* UserProfileDataDatabaseUpdater.swift */,
-				2342E59C27A0B4D00070B724 /* UserProfileController+keyboardHandlers.swift */,
-				2342E59D27A0B4D00070B724 /* UserProfileController.swift */,
-				2342E59E27A0B4D00070B724 /* UserProfileAvatarOpenerDelegate.swift */,
-				2342E59F27A0B4D00070B724 /* UserExistenceChecker.swift */,
+				2342E63527A0EAA10070B724 /* UserProfile */,
+				2342E63C27A0EAA10070B724 /* PhoneAuthentication */,
+				2342E65027A0EAA10070B724 /* Onboarding */,
 			);
-			name = UserProfile;
-			path = "../../../Jake Brown Tech Messenger/FalconMessenger/Authentication/UserProfile";
+			path = Authentication;
 			sourceTree = "<group>";
 		};
-		2342E5A627A0B4D60070B724 /* PhoneAuthentication */ = {
+		2342E63527A0EAA10070B724 /* UserProfile */ = {
 			isa = PBXGroup;
 			children = (
-				2342E5A727A0B4D60070B724 /* PhoneNumberControllers */,
-				2342E5B427A0B4D60070B724 /* VerificationControllers */,
-				2342E5B827A0B4D60070B724 /* AuthPhoneNumberController.swift */,
-				2342E5B927A0B4D60070B724 /* AuthVerificationController.swift */,
+				2342E63627A0EAA10070B724 /* UserProfileContainerView.swift */,
+				2342E63727A0EAA10070B724 /* UserProfileDataDatabaseUpdater.swift */,
+				2342E63827A0EAA10070B724 /* UserProfileController+keyboardHandlers.swift */,
+				2342E63927A0EAA10070B724 /* UserProfileController.swift */,
+				2342E63A27A0EAA10070B724 /* UserProfileAvatarOpenerDelegate.swift */,
+				2342E63B27A0EAA10070B724 /* UserExistenceChecker.swift */,
 			);
-			name = PhoneAuthentication;
-			path = "../../../Jake Brown Tech Messenger/FalconMessenger/Authentication/PhoneAuthentication";
+			path = UserProfile;
 			sourceTree = "<group>";
 		};
-		2342E5A727A0B4D60070B724 /* PhoneNumberControllers */ = {
+		2342E63C27A0EAA10070B724 /* PhoneAuthentication */ = {
 			isa = PBXGroup;
 			children = (
-				2342E5A827A0B4D60070B724 /* CountriesSelector */,
-				2342E5B227A0B4D60070B724 /* PhoneNumberController.swift */,
-				2342E5B327A0B4D60070B724 /* PhoneNumberContainerView.swift */,
+				2342E63D27A0EAA10070B724 /* PhoneNumberControllers */,
+				2342E64A27A0EAA10070B724 /* VerificationControllers */,
+				2342E64E27A0EAA10070B724 /* AuthPhoneNumberController.swift */,
+				2342E64F27A0EAA10070B724 /* AuthVerificationController.swift */,
+			);
+			path = PhoneAuthentication;
+			sourceTree = "<group>";
+		};
+		2342E63D27A0EAA10070B724 /* PhoneNumberControllers */ = {
+			isa = PBXGroup;
+			children = (
+				2342E63E27A0EAA10070B724 /* CountriesSelector */,
+				2342E64827A0EAA10070B724 /* PhoneNumberController.swift */,
+				2342E64927A0EAA10070B724 /* PhoneNumberContainerView.swift */,
 			);
 			path = PhoneNumberControllers;
 			sourceTree = "<group>";
 		};
-		2342E5A827A0B4D60070B724 /* CountriesSelector */ = {
+		2342E63E27A0EAA10070B724 /* CountriesSelector */ = {
 			isa = PBXGroup;
 			children = (
-				2342E5A927A0B4D60070B724 /* CountriesTableViewController+Search.swift */,
-				2342E5AA27A0B4D60070B724 /* Cells */,
-				2342E5AC27A0B4D60070B724 /* CountriesTableViewController.swift */,
-				2342E5AD27A0B4D60070B724 /* Support */,
-				2342E5B027A0B4D60070B724 /* Model */,
+				2342E63F27A0EAA10070B724 /* CountriesTableViewController+Search.swift */,
+				2342E64027A0EAA10070B724 /* Cells */,
+				2342E64227A0EAA10070B724 /* CountriesTableViewController.swift */,
+				2342E64327A0EAA10070B724 /* Support */,
+				2342E64627A0EAA10070B724 /* Model */,
 			);
 			path = CountriesSelector;
 			sourceTree = "<group>";
 		};
-		2342E5AA27A0B4D60070B724 /* Cells */ = {
+		2342E64027A0EAA10070B724 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				2342E5AB27A0B4D60070B724 /* CountriesTableViewCell.swift */,
+				2342E64127A0EAA10070B724 /* CountriesTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		2342E5AD27A0B4D60070B724 /* Support */ = {
+		2342E64327A0EAA10070B724 /* Support */ = {
 			isa = PBXGroup;
 			children = (
-				2342E5AE27A0B4D60070B724 /* CallingCodes.plist */,
-				2342E5AF27A0B4D60070B724 /* CountriesFetcher.swift */,
+				2342E64427A0EAA10070B724 /* CallingCodes.plist */,
+				2342E64527A0EAA10070B724 /* CountriesFetcher.swift */,
 			);
 			path = Support;
 			sourceTree = "<group>";
 		};
-		2342E5B027A0B4D60070B724 /* Model */ = {
+		2342E64627A0EAA10070B724 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				2342E5B127A0B4D60070B724 /* Country.swift */,
+				2342E64727A0EAA10070B724 /* Country.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
 		};
-		2342E5B427A0B4D60070B724 /* VerificationControllers */ = {
+		2342E64A27A0EAA10070B724 /* VerificationControllers */ = {
 			isa = PBXGroup;
 			children = (
-				2342E5B527A0B4D60070B724 /* VerificationCodeController.swift */,
-				2342E5B627A0B4D60070B724 /* VerificationContainerView+Timer.swift */,
-				2342E5B727A0B4D60070B724 /* VerificationContainerView.swift */,
+				2342E64B27A0EAA10070B724 /* VerificationCodeController.swift */,
+				2342E64C27A0EAA10070B724 /* VerificationContainerView+Timer.swift */,
+				2342E64D27A0EAA10070B724 /* VerificationContainerView.swift */,
 			);
 			path = VerificationControllers;
 			sourceTree = "<group>";
 		};
-		2342E5C727A0B4DA0070B724 /* Onboarding */ = {
+		2342E65027A0EAA10070B724 /* Onboarding */ = {
 			isa = PBXGroup;
 			children = (
-				2342E5C827A0B4DA0070B724 /* OnboardingController.swift */,
-				2342E5C927A0B4DA0070B724 /* OnboardingContainerView.swift */,
+				2342E65127A0EAA10070B724 /* OnboardingController.swift */,
+				2342E65227A0EAA10070B724 /* OnboardingContainerView.swift */,
 			);
-			name = Onboarding;
-			path = "../../../Jake Brown Tech Messenger/FalconMessenger/Authentication/Onboarding";
+			path = Onboarding;
 			sourceTree = "<group>";
 		};
 		4B1A36991F49990D00B4AA0A /* InputContainerView */ = {
@@ -741,8 +748,8 @@
 		4B4F452D1F32230C00A6FF96 /* ChatterBox */ = {
 			isa = PBXGroup;
 			children = (
+				2342E63427A0EAA10070B724 /* Authentication */,
 				4B7F31E62220466700B2CF37 /* Model */,
-				4B7F31F52220493100B2CF37 /* Authentication */,
 				4B7F31FA22204A1800B2CF37 /* Contacts */,
 				4BE72A6E204E9DC4009A22EA /* Chats */,
 				4BE72A6D204E9DB1009A22EA /* ChatLog */,
@@ -1030,16 +1037,6 @@
 				4B7F31EC2220466700B2CF37 /* RealmImage.swift */,
 			);
 			path = Model;
-			sourceTree = "<group>";
-		};
-		4B7F31F52220493100B2CF37 /* Authentication */ = {
-			isa = PBXGroup;
-			children = (
-				2342E5C727A0B4DA0070B724 /* Onboarding */,
-				2342E5A627A0B4D60070B724 /* PhoneAuthentication */,
-				2342E59927A0B4D00070B724 /* UserProfile */,
-			);
-			path = Authentication;
 			sourceTree = "<group>";
 		};
 		4B7F31FA22204A1800B2CF37 /* Contacts */ = {
@@ -1610,7 +1607,7 @@
 			files = (
 				4B7F31E222203D5600B2CF37 /* notification.caf in Resources */,
 				4B7F31E322203D5600B2CF37 /* sent.caf in Resources */,
-				2342E5BD27A0B4D60070B724 /* CallingCodes.plist in Resources */,
+				2342E65C27A0EAA10070B724 /* CallingCodes.plist in Resources */,
 				4B4F45381F32230C00A6FF96 /* Assets.xcassets in Resources */,
 				4B7DB2CE224F8DA700853C76 /* LaunchScreen.storyboard in Resources */,
 				4B2882321FBDDE3400B25397 /* GoogleService-Info.plist in Resources */,
@@ -1726,7 +1723,7 @@
 				4BB554A42135B12E00ABDAD4 /* ChatLogHistoryFetcher.swift in Sources */,
 				4BBBCBF72057DCD800926800 /* GroupPictureAvatarOpenerDelegate.swift in Sources */,
 				4B80BE26212EF02200A32E01 /* AttachCollectionViewLayout.swift in Sources */,
-				2342E5C027A0B4D60070B724 /* PhoneNumberController.swift in Sources */,
+				2342E65F27A0EAA10070B724 /* PhoneNumberController.swift in Sources */,
 				4BFBB108208D176F004BB0B7 /* ChatsTableViewController+TypingIndicatorDelegate.swift in Sources */,
 				4B6BB01420886C5F00A90F3A /* ImagePickerTrayController.swift in Sources */,
 				4BDFACAB2147D88D00603963 /* ChatLogViewController+UserBlockDelegate.swift in Sources */,
@@ -1746,7 +1743,7 @@
 				4BDFACAD2147DA2900603963 /* UserBlockingManager.swift in Sources */,
 				4BBF79552134370C00903F56 /* SplitPlaceholderViewController.swift in Sources */,
 				4B0FA7CF2063CD5E00BEA090 /* GroupAdminPanelTableViewCell.swift in Sources */,
-				2342E5C327A0B4D60070B724 /* VerificationContainerView+Timer.swift in Sources */,
+				2342E66227A0EAA10070B724 /* VerificationContainerView+Timer.swift in Sources */,
 				4B5E99DC212C6138001F067F /* InAppNotificationManager.swift in Sources */,
 				4B1058F72120979200CD6600 /* UserDefaultsManager.swift in Sources */,
 				4B3B7BB02146F7210060F41F /* ReportAlertController.swift in Sources */,
@@ -1757,7 +1754,7 @@
 				4B2743CD2220397300495B4C /* FalconNavigationItem.swift in Sources */,
 				4B8CA9EE211C49B300E6A66C /* BubbleCircle.swift in Sources */,
 				4B62E5FE2077EC7900546294 /* BaseVoiceMessageCell.swift in Sources */,
-				2342E5BC27A0B4D60070B724 /* CountriesTableViewController.swift in Sources */,
+				2342E65B27A0EAA10070B724 /* CountriesTableViewController.swift in Sources */,
 				4B2E59AB214AB0F60081B74E /* MessageSender.swift in Sources */,
 				4BE023BB1FC33223004F8BFF /* MediaPickerControllerNew.swift in Sources */,
 				4B1A369D1F49997A00B4AA0A /* AttachCollectionViewCell.swift in Sources */,
@@ -1790,7 +1787,7 @@
 				4B6BAFF320886C5F00A90F3A /* SelectNewAdminTableViewController+SearchHandlers.swift in Sources */,
 				4B31350421A9EED500D20583 /* SharedVoiceMessagesFetcher.swift in Sources */,
 				4BDB29552126C79000D77600 /* AboutTableViewController.swift in Sources */,
-				2342E5A227A0B4D00070B724 /* UserProfileController+keyboardHandlers.swift in Sources */,
+				2342E65527A0EAA10070B724 /* UserProfileController+keyboardHandlers.swift in Sources */,
 				4BBF795D2134375800903F56 /* SplashScreenContainer+BiometricalControl.swift in Sources */,
 				4B5D70592154FFCE00AD5195 /* InputContainerView+MediaPickerDelegate.swift in Sources */,
 				4B3B7BAE2146F6F40060F41F /* ReportSender.swift in Sources */,
@@ -1799,7 +1796,7 @@
 				4BDB29562126C79000D77600 /* AccountSettingsController+nameEditing.swift in Sources */,
 				4B2143061F51FD8300F7A4B8 /* OutgoingPhotoMessageCell.swift in Sources */,
 				4B6BB00420886C5F00A90F3A /* INSPhotosInteractionAnimator.swift in Sources */,
-				2342E5BB27A0B4D60070B724 /* CountriesTableViewCell.swift in Sources */,
+				2342E65A27A0EAA10070B724 /* CountriesTableViewCell.swift in Sources */,
 				4BEDE42C2068172C00C52EF4 /* InputBlockerContainerView.swift in Sources */,
 				4B18BACA2097104600EA1B04 /* ContactPhoneNnumberTableViewCell.swift in Sources */,
 				4BE44DA8212B3A3000E722B8 /* ContactsFetcher.swift in Sources */,
@@ -1810,7 +1807,7 @@
 				4B2743CF2220398900495B4C /* FalconActivityTitleView.swift in Sources */,
 				4B6BAFEA20886C5F00A90F3A /* SelectedParticipantsCollectionViewCell.swift in Sources */,
 				4BBF79542134370C00903F56 /* SplitViewController.swift in Sources */,
-				2342E5C527A0B4D60070B724 /* AuthPhoneNumberController.swift in Sources */,
+				2342E66427A0EAA10070B724 /* AuthPhoneNumberController.swift in Sources */,
 				4B6BAFF020886C5F00A90F3A /* WaveformView.swift in Sources */,
 				4BBBCBFB205851E100926800 /* ChatsTableViewController.swift in Sources */,
 				4B6BB01120886C5F00A90F3A /* TransitionController.swift in Sources */,
@@ -1828,10 +1825,10 @@
 				4B43D8F7223C60CF00F45C21 /* AppearanceExampleTableViewCell.swift in Sources */,
 				4BDB294A2126C79000D77600 /* AccountSettingsTableViewCell.swift in Sources */,
 				4BFD07761FB08005003791D7 /* ViewPlaceholder.swift in Sources */,
-				2342E5A327A0B4D00070B724 /* UserProfileController.swift in Sources */,
+				2342E65627A0EAA10070B724 /* UserProfileController.swift in Sources */,
 				4B790B4D214919AD00427C92 /* BlockedUsersTableViewController.swift in Sources */,
 				4BEDE4272067C77400C52EF4 /* InformationMessageCell.swift in Sources */,
-				2342E5BE27A0B4D60070B724 /* CountriesFetcher.swift in Sources */,
+				2342E65D27A0EAA10070B724 /* CountriesFetcher.swift in Sources */,
 				4B2E59AD214ACCD20081B74E /* StorageMediaUploader.swift in Sources */,
 				4B6BAFEF20886C5F00A90F3A /* ThemeManager.swift in Sources */,
 				4BE8BB3B1FC9FD0800EB35FA /* VoiceRecordingContainerView.swift in Sources */,
@@ -1854,14 +1851,14 @@
 				4B6BB00C20886C5F00A90F3A /* ActionCell.swift in Sources */,
 				4BCBCA42222C4DF000275845 /* UIIncrementSlider.swift in Sources */,
 				4B6BB00A20886C5F00A90F3A /* UIVIew+INSPhotoViewer.swift in Sources */,
-				2342E5A527A0B4D00070B724 /* UserExistenceChecker.swift in Sources */,
+				2342E65827A0EAA10070B724 /* UserExistenceChecker.swift in Sources */,
 				4BE8BB391FC9F8C100EB35FA /* VoiceRecordingViewController.swift in Sources */,
 				4B2E59B0214ADC9B0081B74E /* UploadProgress.swift in Sources */,
 				4BC9220E21394F0C0057100C /* CellPlayerView.swift in Sources */,
 				4B790B4F21492E6000427C92 /* BlockUserTableViewController.swift in Sources */,
 				4B6BB01520886C5F00A90F3A /* FalconTextView.swift in Sources */,
 				4B8CA13F215405B5009F8AA3 /* GroupMembersManager.swift in Sources */,
-				2342E5A427A0B4D00070B724 /* UserProfileAvatarOpenerDelegate.swift in Sources */,
+				2342E65727A0EAA10070B724 /* UserProfileAvatarOpenerDelegate.swift in Sources */,
 				4B6BB00020886C5F00A90F3A /* AvatarOpenerOverlay.swift in Sources */,
 				4B7ACCB91F3A3CA9000606E1 /* BaseMessageCell.swift in Sources */,
 				4B82D10222007FD100C13761 /* INSVideoPlayerViewController.swift in Sources */,
@@ -1871,13 +1868,13 @@
 				4B86C0C620513CF9004ABC54 /* SelectChatTableViewController+SearchHandlers.swift in Sources */,
 				4B5E99DA212C42F6001F067F /* ConversationsFetcher.swift in Sources */,
 				4BBBCBFD2058804900926800 /* ChatsTableViewController+SearchHandlers.swift in Sources */,
-				2342E5C127A0B4D60070B724 /* PhoneNumberContainerView.swift in Sources */,
-				2342E5BA27A0B4D60070B724 /* CountriesTableViewController+Search.swift in Sources */,
+				2342E66027A0EAA10070B724 /* PhoneNumberContainerView.swift in Sources */,
+				2342E65927A0EAA10070B724 /* CountriesTableViewController+Search.swift in Sources */,
 				4B63646B1F977AAC00A5D3BF /* UserInfoTableViewController.swift in Sources */,
 				4B6BB00320886C5F00A90F3A /* INSPhotosTransitionAnimator.swift in Sources */,
-				2342E5BF27A0B4D60070B724 /* Country.swift in Sources */,
+				2342E65E27A0EAA10070B724 /* Country.swift in Sources */,
 				4B27F6782089C92E0068077E /* TypingIndicatorManager.swift in Sources */,
-				2342E5CA27A0B4DA0070B724 /* OnboardingController.swift in Sources */,
+				2342E66627A0EAA10070B724 /* OnboardingController.swift in Sources */,
 				4B01BB6D21D6842D00FF229B /* RespondingButton.swift in Sources */,
 				4B6BAFE820886C5F00A90F3A /* SelectParticipantsViewController.swift in Sources */,
 				4BDFACB12147E4BB00603963 /* UnblockContainerView.swift in Sources */,
@@ -1894,10 +1891,10 @@
 				4B31350621A9F56D00D20583 /* SharedMediaCell.swift in Sources */,
 				4B3134F921A9EDED00D20583 /* SharedMedia.swift in Sources */,
 				4BA878A81FC8016300F9E3F0 /* CurrentUserTableViewCell.swift in Sources */,
-				2342E5A127A0B4D00070B724 /* UserProfileDataDatabaseUpdater.swift in Sources */,
+				2342E65427A0EAA10070B724 /* UserProfileDataDatabaseUpdater.swift in Sources */,
 				4BC3B25D212DA10A0012C7BD /* KeyboardFrameObserver.swift in Sources */,
 				4B43D8F9223C6C5700F45C21 /* AppearanceExampleMessagesFactory.swift in Sources */,
-				2342E5C427A0B4D60070B724 /* VerificationContainerView.swift in Sources */,
+				2342E66327A0EAA10070B724 /* VerificationContainerView.swift in Sources */,
 				4B2743CB2220396200495B4C /* FalconTableViewController.swift in Sources */,
 				4BB554A62135C77800ABDAD4 /* ChatLogViewController+ChatHistoryFetcherDelegate.swift in Sources */,
 				4BBBCC0120588CAA00926800 /* ChatsTableViewController+TableRowActionHandlers.swift in Sources */,
@@ -1910,11 +1907,11 @@
 				4B80BE372130217100A32E01 /* ChatLogViewControllerTitleView.swift in Sources */,
 				4BBBCBFF205883CC00926800 /* UserCell+ConfigureCell.swift in Sources */,
 				4BC2C58D1F40545200B5C825 /* UserCell.swift in Sources */,
-				2342E5A027A0B4D00070B724 /* UserProfileContainerView.swift in Sources */,
-				2342E5CB27A0B4DA0070B724 /* OnboardingContainerView.swift in Sources */,
+				2342E65327A0EAA10070B724 /* UserProfileContainerView.swift in Sources */,
+				2342E66727A0EAA10070B724 /* OnboardingContainerView.swift in Sources */,
 				4B6BB02320886C5F00A90F3A /* RoundProgressView.swift in Sources */,
 				4BC3B266212DAE960012C7BD /* ChatLogViewController+DataSource.swift in Sources */,
-				2342E5C627A0B4D60070B724 /* AuthVerificationController.swift in Sources */,
+				2342E66527A0EAA10070B724 /* AuthVerificationController.swift in Sources */,
 				4B01BB6821D683A500FF229B /* VoiceRecorderRespondingButton.swift in Sources */,
 				4B7ACCBB1F3A3CC1000606E1 /* IncomingTextMessageCell.swift in Sources */,
 				4BC9D4931F5DAD9F00883942 /* BaseMediaMessageCell.swift in Sources */,
@@ -1929,7 +1926,7 @@
 				4BC26B191F3A21EE0093A9D2 /* InputContainerView.swift in Sources */,
 				4B254A622229C29800A15A03 /* AppearanceTableViewController.swift in Sources */,
 				4B6BAFF120886C5F00A90F3A /* SelectNewAdminTableViewController.swift in Sources */,
-				2342E5C227A0B4D60070B724 /* VerificationCodeController.swift in Sources */,
+				2342E66127A0EAA10070B724 /* VerificationCodeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

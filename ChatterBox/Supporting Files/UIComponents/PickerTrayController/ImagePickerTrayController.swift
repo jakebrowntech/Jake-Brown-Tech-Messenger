@@ -16,7 +16,7 @@ enum ImagePickerMediaType {
     case imageAndVideo
 }
 
-@objc protocol ImagePickerTrayControllerDelegate: class {
+@objc protocol ImagePickerTrayControllerDelegate: AnyObject {
     @objc optional func controller(_ controller: ImagePickerTrayController, willSelectAsset asset: PHAsset, at indexPath: IndexPath)
     @objc optional func controller(_ controller: ImagePickerTrayController, didSelectAsset asset: PHAsset, at indexPath: IndexPath?)
     @objc optional func controller(_ controller: ImagePickerTrayController, willDeselectAsset asset: PHAsset, at indexPath: IndexPath)
