@@ -83,7 +83,7 @@ class ChatsTableViewController: FalconTableViewController {
   }
   
   @objc fileprivate func changeTheme() {
-    view.backgroundColor = ThemeManager.currentTheme().generalBackgroundColor
+      self.view.backgroundColor = ThemeManager.currentTheme().generalBackgroundColor
     tableView.indicatorStyle = ThemeManager.currentTheme().scrollBarStyle
     tableView.sectionIndexBackgroundColor = view.backgroundColor
     tableView.backgroundColor = view.backgroundColor

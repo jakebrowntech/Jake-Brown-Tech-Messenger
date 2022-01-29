@@ -9,8 +9,8 @@
 import UIKit
 
 enum AvatarOverlayTitle: String {
-  case user = "Profile Picture"
-  case group = "Group Photo"
+  case user = "Profile photo"
+  case group = "Group avatar"
 }
 
 class AvatarOpenerOverlay: UIView {
@@ -67,7 +67,7 @@ class AvatarOpenerOverlay: UIView {
   }
   
   private func configureNavigationBar() {
-        navigationItem.leftBarButtonItem = UIBarButtonItem(barButtonSystemItem: .stop, target: self, action: #selector(backButtonTapped))
+    navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "BackButton"), style: .done, target: self, action: #selector(backButtonTapped))
     navigationBar.setItems([navigationItem], animated: true)
   }
   

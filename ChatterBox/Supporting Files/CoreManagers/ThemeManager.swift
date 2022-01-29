@@ -96,9 +96,9 @@ enum Theme: Int {
   var generalBackgroundColor: UIColor {
     switch self {
     case .Default:
-      return .white
+        return .systemBackground
     case .Dark:
-      return .white
+        return .systemBackground
 		case .LivingCoral:
 			return .white
 		}
@@ -151,11 +151,11 @@ enum Theme: Int {
   var barBackgroundColor: UIColor {
     switch self {
     case .Default:
-      return .white
+      return .systemBackground
     case .Dark:
-      return .white
+      return .systemBackground
 		case .LivingCoral:
-			return .white
+			return .systemBackground
 		}
   }
 
